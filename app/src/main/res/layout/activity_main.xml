@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/frgStatic"
+        android:name="examples.aaronhoskins.com.fragments.StaticFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <FrameLayout
+        android:id="@+id/frmDynamicOne"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <FrameLayout
+        android:id="@+id/frmOutput"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:id="@+id/btnPopBackStack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pop back Stack by one fragment"
+        android:onClick="onClick"/>
+
+</LinearLayout>

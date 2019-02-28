@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4BADA2"
+    tools:context=".DynamicFragment">
+
+    <EditText
+        android:id="@+id/etDynamicInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter some text for the dynamic fragment"/>
+
+    <Button
+        android:id="@+id/btnSendToActivityFromDynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND INFO TO ACTIVITY FROM DYNAMIC"/>
+
+</LinearLayout>
